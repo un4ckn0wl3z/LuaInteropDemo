@@ -1,4 +1,4 @@
--- Get the base address of godmode.dll (already injected)
+-- Get the base address of godmod.dll (already injected)
 local dllName = "godmod.dll"
 local dllBase = getAddress(dllName)
 if dllBase == 0 then
